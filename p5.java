@@ -4,5 +4,10 @@ public class p5 {
         double C;
         C = F-3.2/1.8;
         System.out.println("Equation = "+C);
+
+        double pi = 3.14, r=4.5, R=11.90, h=34.78;
+        double Area;
+        Area = (pi*r*r)+(2*pi*R*h);
+        System.out.println("Equation2 = "+Area);
     }
 }
