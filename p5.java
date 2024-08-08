@@ -9,5 +9,9 @@ public class p5 {
         double Area;
         Area = (pi*r*r)+(2*pi*R*h);
         System.out.println("Equation2 = "+Area);
+
+        double a = 20.29, b = 10.90, x = 3.45,Side;
+        Side = Math.sqrt((a*a)+(b*b)-(2*a*b)* Math.cos(x));
+        System.out.println("Equation3 = "+Side);
     }
 }
