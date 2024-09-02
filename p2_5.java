@@ -19,7 +19,7 @@ public class p2_5 {
     }
 
     public static void main(String[] args) {
-        int N = 1000;
+        int N = 100;
         prime_N(N);
     }
 }
