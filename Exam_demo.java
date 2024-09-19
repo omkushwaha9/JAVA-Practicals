@@ -3,7 +3,8 @@ class Exam {
     private int rollno;
     private double internalMarks, externalMarks, totalMarks;
 
-    public Exam(String stu_name, int rollno, String sub_code, String sub_name, double internalMarks, double externalMarks) {
+    public Exam(String stu_name, int rollno, String sub_code, String sub_name, double internalMarks,
+            double externalMarks) {
         this.stu_name = stu_name;
         this.rollno = rollno;
         this.sub_code = sub_code;
@@ -13,12 +14,10 @@ class Exam {
         calculateResult();
     }
 
-
     private void calculateResult() {
         totalMarks = internalMarks + externalMarks;
     }
 
-   
     public void showResult() {
         System.out.println("Student Name: " + stu_name);
         System.out.println("Roll No: " + rollno);
@@ -30,9 +29,8 @@ class Exam {
 
 public class Exam_demo {
     public static void main(String[] args) {
-       
-        Exam exam = new Exam("OM KUSHWAHA",  011, "CS101", "Computer Science", 40.5, 0.0);
+
+        Exam exam = new Exam("OM KUSHWAHA", 011, "CS101", "Computer Science", 40.5, 0.0);
         exam.showResult();
     }
 }
-
