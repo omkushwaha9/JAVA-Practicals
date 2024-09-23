@@ -29,7 +29,7 @@ class Exam {
         System.out.println("Internal Marks: " + InternalMarks);
         System.out.println("External Marks: " + ExternalMarks);
         System.out.println("Result: " + Calculate_result());
-        System.out.println("-------------------------");
+        System.out.println("---------------------------");
     }
 }
 
