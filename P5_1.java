@@ -27,7 +27,7 @@ class BedRoom extends Room {
 
 public class P5_1 {
     public static void main(String[] args) {
-        BedRoom bedroom = new BedRoom(10.5, 8.2, 4.0);
+        BedRoom bedroom = new BedRoom(11.5, 8.2, 12.0);
 
         System.out.println("Area of the bedroom: " + bedroom.area());
         System.out.println("Volume of the bedroom: " + bedroom.volume());
