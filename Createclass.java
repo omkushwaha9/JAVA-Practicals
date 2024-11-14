@@ -1,5 +1,5 @@
 public class Createclass {
-     int x = 5;
+  int x = 5;
 
   public static void main(String[] args) {
     Main myObj = new Main();
