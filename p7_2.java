@@ -5,7 +5,6 @@ class MyRunnable implements Runnable {
         this.threadName = name;
     }
 
-    
     public void run() {
         System.out.println(threadName + " is running.");
     }
@@ -13,7 +12,7 @@ class MyRunnable implements Runnable {
 
 public class p7_2 {
     public static void main(String[] args) {
-        
+
         Thread thread1 = new Thread(new MyRunnable("Thread 1"));
         Thread thread2 = new Thread(new MyRunnable("Thread 2"));
         Thread thread3 = new Thread(new MyRunnable("Thread 3"));
