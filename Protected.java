@@ -1,12 +1,13 @@
-class Person {
-  protected String fname = "John";
-  protected String lname = "Doe";
-  protected String email = "john@doe.com";
+class Protection {
+  protected String fname = "OM";
+  protected String lname = "KUSHWAHA";
+  protected String email = "OKUSHWAHA@992.com";
   protected int age = 24;
 }
 
-class Student extends Person {
+class Student extends Protection {
   private int graduationYear = 2018;
+
   public static void main(String[] args) {
     Student myObj = new Student();
     System.out.println("Name: " + myObj.fname + " " + myObj.lname);
