@@ -1,7 +1,7 @@
 class Protection {
   protected String fname = "OM";
   protected String lname = "KUSHWAHA";
-  protected String email = "OKUSHWAHA@992.com";
+  protected String email = "OKUSHWAHA.992@gmail.com";
   protected int age = 24;
 }
 
