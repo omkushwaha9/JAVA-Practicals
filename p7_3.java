@@ -1,5 +1,6 @@
 class MyRunnable implements Runnable {
     String threadName;
+
     public MyRunnable(String name) {
         this.threadName = name;
     }
@@ -16,7 +17,7 @@ public class p7_3 {
         Thread thread2 = new Thread(new MyRunnable("Thread 2"));
         Thread thread3 = new Thread(new MyRunnable("Thread 3"));
 
-        thread1.setPriority(Thread.MIN_PRIORITY); 
+        thread1.setPriority(Thread.MIN_PRIORITY);
         thread2.setPriority(Thread.NORM_PRIORITY);
         thread3.setPriority(Thread.MAX_PRIORITY);
 
